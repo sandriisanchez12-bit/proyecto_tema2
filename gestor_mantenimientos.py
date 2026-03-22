@@ -7,7 +7,7 @@ from datetime import date,datetime,timedelta
 st.set_page_config(page_title='Proyecto Gestor de Mantenimientos')
 st.title('Gestor de Mantenimientos')
 
-archivo = r'C:\Users\usuario\OneDrive\Escritorio\Programacion\Apps_IA_Streamlit\Tema7\proyecto_tema2\VehiculosMantenimiento.xlsx'
+archivo = 'VehiculosMantenimiento.xlsx'
 try:
     df = pd.read_excel(archivo)
 except FileNotFoundError:
